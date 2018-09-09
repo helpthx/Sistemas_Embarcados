@@ -1,0 +1,13 @@
+#bib_arqs: main4.o bib_arqs.o
+#	gcc $(CFLAGS) -o bib_arqs main4.o bib_arqs.o
+
+#bib_arqs.o: bib_arqs.c bib_arqs.h
+#	gcc $(CFLAGS) -c bib_arqs.c
+	
+#main4.o: main4.c bib_arqs.h
+#	gcc $(CFLAGS) -c main4.c
+
+
+
+#clean:
+#	rm -f *.o bib_arqs
