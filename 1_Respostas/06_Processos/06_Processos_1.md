@@ -40,11 +40,15 @@ Aceitam que o nome ou procura do programa estejam no "caminho atual". Devem cont
 
 (b) `execv()`?
 Aceitam que a lista de argumentos do novo programa seja nula.
+
 (c) `exece()`?
 Substitui op rograma em execução por um outro, ele não retorna valor algum, exceto quando um erro ocorre.
+
 (d) `execvp()`?
 Combinação emtre a lista de argumentos do novo programa seja nula e especificar o caminho completo do programa a ser executado.
+
 (e) `execve()`?
 Aceitam argumentos adicinal.
+
 (f) `execle()`?
 Aceitam argumentos adicinal.
