@@ -1,9 +1,9 @@
 # Cyber Gate
 
 <p align="center">
-	<img src="/Imagens/40637444_262471647930542_3437316980447641600_n.jpg" alt="Smiley face" height="300" width="300"></p>
+	<img src="https://github.com/helpthx/Cyber-Gate/blob/master/Imagens/40637444_262471647930542_3437316980447641600_n.jpg" alt="Smiley face" height="300" width="300"></p>
 
-# Desenvolvimento de Software - CBL - 2/2018 
+# Sistemas Embarcados - CBL - 2/2018 
 
 ## Resumo
 <p align="justify">
@@ -15,17 +15,9 @@ João Vitor Rodrigues Baptista 	15/0013329
 
 Igor Sousa		  	              15/0011971
 
-Matheus Pereira		              15/0018304
-
-Nilo Mendonça		                16/0037522
-
-Marcos Cabeceira                15/0051816
-
-Vinicius Porto                  15/0065515
-
 
 ## Tutores
-Inclua o nome de profissionais, especialistas, ou outras pessoas que colaboraram no levantamento de informações relevantes para o trabalho.
+
 
 ## Big Idea
 Controle de acesso ao Restaurante Universitário da Faculdade do Gama.
@@ -85,6 +77,9 @@ Obter um sistema de controle de acesso mais eficiente para o Restaurante Univers
 ### 3. Quais os custo do sistema?
 
 ### 4. Como funcionará a instalação do sistema?
+<p align="justify">
+A princípio será desenvolvido um protótipo do projeto que tem o objetivo de demonstrar todas as funcionalidades porém com um número reduzido de usuários cadastrados. 
+</p.
 
 
 ## Guiding Activities
@@ -105,11 +100,12 @@ CHOWDHURY, Nasimuzzaman. Access Control of Door and Home Security by Raspberry P
 
 ## Analysis
 <p align="justify">
-Analisar os dados levantados. Demonstrar que as Guiding Questions foram respondidas e que a equipe tem a base necessária para propor a solução.
+Após estudar o tema proposto e entender melhor o problema levantado, e diversas questões relacionadas existiu uma melhor visão do problema, o que fez existir diversas opiniões de pontos que poderiam ser observados ou mesmo trabalhados para a solução do mesmo, desde formas de identificação tal como servidores e a eletrônica vinculada em hardware para o sistema.
 </p>
 
 ## Solution
 <p align="justify">
-Muitas vezes é possível propor várias propostas de solução. Isso é bom para ajudar na discussão sobre que idéia melhor resolve o problema, quais as vantagens e desvantagens de cada uma delas.
-Como neste exemplo é um aplicativo móvel, é interessante ter um protótipo de suas telas. Assim, é possível ter uma noção de como o aplicativo vai ficar, auxiliando enormemente na hora de discutir com especialistas.
+Como foco principal de solução é de fato a implementação de um sistema de reconhecimento facial, com um servidor online para a verificação de usuários e registro de créditos. Porém as soluções de contorno foram feitas em torno de um mesmo problema de controle de acesso, por tanto existiu-se o debate sobre a melhor forma de reconhecimento(Facial, código de barras(meio usado atualmente), RFID, QR codes entre outros.).
+A criação de servidores foi também de fato trabalhada sobre qual melhor jeito para se armazenar informações seja em memoria interna do dispositivo, ou em um servidor online. Questões essas que levaram a escolha da solução abordada para o desenvolvimento da solução escolhida para a prototipagem e desenvolvimento: O uso do reconhecimento facial 
+
 </p>
