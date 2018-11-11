@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
+import time;
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -94,7 +95,7 @@ class Ui_Monitor(object):
         self.Matricula_l.setText(_translate("Monitor", "Matrícula: ", None))
         self.DInheiro_l.setText(_translate("Monitor", "Saldo Atual:", None))
         self.Nome_L.setText(_translate("Monitor", "Nome:", None))
-        if(numero_acessos != 0):
+        if(numero_acessos != 0 and iniciar == 1):
              self.Status.setHtml(_translate("Monitor", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
     "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
     "p, li { white-space: pre-wrap; }\n"
@@ -102,26 +103,33 @@ class Ui_Monitor(object):
     "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#ff5500;\">NUMERO DE ACESSOS EXPIRADOS</span></p>\n"
     "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:600; color:#00aa00;\"><br /></p></body></html>", None))
 
-        elif(dinheiro_flt < 5.20):
+        elif(dinheiro_flt < 5.20 and iniciar == 1):
             self.Status.setHtml(_translate("Monitor", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
     "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
     "p, li { white-space: pre-wrap; }\n"
     "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
     "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#ff0000;\">SALDO INSUFICIENTE</span></p>\n"
     "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:600; color:#00aa00;\"><br /></p></body></html>", None))
-        elif(dinheiro_flt >= 5.20 and numero_acessos == 0):
+        elif(dinheiro_flt >= 5.20 and numero_acessos == 0 and iniciar == 1):
             self.Status.setHtml(_translate("Monitor", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
     "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
     "p, li { white-space: pre-wrap; }\n"
     "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
     "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#00aa00;\">ACESSO PERMITIDO</span></p></body></html>", None))
        
-        elif(dinheiro_flt < 5.20):
+        elif(dinheiro_flt < 5.20 and iniciar == 1):
             self.Status.setHtml(_translate("Monitor", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
     "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
     "p, li { white-space: pre-wrap; }\n"
     "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
     "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#ff0000;\">SALDO INSUFICIENTE</span></p>\n"
+    "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:600; color:#00aa00;\"><br /></p></body></html>", None))
+        elif(iniciar == 0):
+            self.Status.setHtml(_translate("Monitor", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+    "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+    "p, li { white-space: pre-wrap; }\n"
+    "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+    "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:22pt; font-weight:600; color:#5978c6;\">APROXIME SEU ROSTO</span></p>\n"
     "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:600; color:#00aa00;\"><br /></p></body></html>", None))
 
         self.Status_l.setText(_translate("Monitor", "Status:", None))
@@ -134,15 +142,29 @@ class Ui_Monitor(object):
 
 if __name__ == "__main__":
     import sys
-    nome = input("Digite um nome para entrar: ")
-    matricula = input("Digite uma matricula para entrar: ")
-    dinheiro = input("Digite uma quantidade de dinheiro: ")
-    numero_acessos = int(input("Digite o numero de acessos hoje: "))
-    dinheiro_flt = float(dinheiro) 
+    sair = 1 
     app = QtGui.QApplication(sys.argv)
     Monitor = QtGui.QMainWindow()
+    nome = "Aluno"
+    matricula = "Matricula"
+    dinheiro = "00"
+    dinheiro_flt = 00.00
+    numero_acessos = 0
+    iniciar = 0
     ui = Ui_Monitor()
     ui.setupUi(Monitor)
     Monitor.show()
+    while sair:
+        iniciar = 1;
+        nome = input("Digite um nome para entrar: ")
+        matricula = input("Digite uma matricula para entrar: ")
+        dinheiro = input("Digite uma quantidade de dinheiro: ")
+        #sair = input("Deseja sair 1 ou 0 ?")
+        numero_acessos = int(input("Digite o numero de acessos hoje: "))
+        dinheiro_flt = float(dinheiro)
+        ui = Ui_Monitor()
+        ui.setupUi(Monitor)
+        Monitor.show()
+                      
     sys.exit(app.exec_())
 
