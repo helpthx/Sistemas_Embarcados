@@ -14,5 +14,5 @@
 
 4. Defina de qual forma você desenvolverá software para o Raspberry Pi no projeto desta disciplina. Escreva o passo-a-passo do desenvolvimento e forneça os links necessários para isto.
 	
-Como fica inviavel para usar a raspberry como estação de trabalho. Todo o processo será feito via VNC     (https://www.realvnc.com/pt/connect/download/viewer/)GitHub(https://github.com/helpthx/Sistemas_Embarcados/tree/master/2_PCs). O VNC será a forma de acessar e compartilhar tela, mouse e teclado. O GitHub vai ser usado como meio de transferência de arquivos, porem todas as copilações em C ou qualquer outro sofware que necessitar de copilação será copilado na própria raspberry, assim como todas as APIS e bibliotecas serão baixadas na raspberry e no PC de desenvolvimento.  
+Como fica inviavel para usar a raspberry como estação de trabalho. Todo o processo será feito via VNC     (https://www.realvnc.com/pt/connect/download/viewer/) e GitHub(https://github.com/helpthx). O VNC será a forma de acessar e compartilhar tela, mouse e teclado. O GitHub vai ser usado como meio de transferência de arquivos, porem todas as copilações em C ou qualquer outro sofware que necessitar de copilação será copilado na própria raspberry, assim como todas as APIS e bibliotecas serão baixadas na raspberry e no PC de desenvolvimento.  
 
