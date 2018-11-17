@@ -30,4 +30,4 @@
 6. Apresente as formas possíveis de compilação de código em Python para o Raspberry Pi.
 	Como python, assim como outras aplicações são softwares que são interpretáveis. Não sofrem da diferença de arquitetura do processador. Portanto, basta desenvolver o código em python e possuir todas as bibliotecas necessárias que o software irá rodar. 
 
-refs: https://www.filipeflop.com/blog/linguagem-c-com-raspberry-pi/
+	1. refs: https://www.filipeflop.com/blog/linguagem-c-com-raspberry-pi/
