@@ -8,9 +8,9 @@
 
 3. Defina de qual forma você instalará o sistema operacional escolhido. Escreva o passo-a-passo da instalação e forneça os links necessários para isto.
 
-	1° Foi formatado o SD utilizando um software recomendado pela raspberrypi.org - https://www.balena.io/etcher/ -
-	2° Com o SD formatado na estrutura de arquivos do SO. Foi baixado a .img e feito o flash pelo programa etcher. - https://www.raspberrypi.org/downloads/raspbian/ - 
-	3º Foi conectado pela primeira vez como uma estação de trabalho para configurar todas as comunicações SSH e VNC.
+	1. Foi formatado o SD utilizando um software recomendado pela raspberrypi.org - https://www.balena.io/etcher/ -
+	2. Com o SD formatado na estrutura de arquivos do SO. Foi baixado a .img e feito o flash pelo programa etcher. - https://www.raspberrypi.org/downloads/raspbian/ - 
+	3. Foi conectado pela primeira vez como uma estação de trabalho para configurar todas as comunicações SSH e VNC.
 
 4. Defina de qual forma você desenvolverá software para o Raspberry Pi no projeto desta disciplina. Escreva o passo-a-passo do desenvolvimento e forneça os links necessários para isto.
 	
