@@ -1,15 +1,25 @@
 1. Especifique algumas portas importantes pré-definidas para o protocolo TCP/IP.
 	
 	21	FTP
+	
 	22	SSH
+	
 	23	Telnet(provavelmente o protocolo de acesso remoto mais antigo)
+	
 	25	SMTP(protocolo padrão para o envio de e-mails.)
+	
 	53	Domain Name (Nome do domínio do Sistema)(Converter domínios em IPs)
+	
 	63	Whois
+	
 	70	Gopher
+	
 	79	Finger
+	
 	80	HTTP(principal protocolo da Internet, usado para acesso às paginas web.)
+	
 	110	POP3
+	
 	119	NNTP
 
 	As portas são codificadas em 16 bits com mais de 60 mil possibilidades e cada porta tem uma finalidade de tratamento de algum dado especifico.
@@ -64,13 +74,17 @@
 4. Qual é a diferença entre os métodos `GET` e `POST` no protocolo HTTP?
 	
 	`GET` Requisita uma representação do recurso especificado. Requisições usando GET devem apenas recuperar dados e não devem ter qualquer outro efeito. 
+	
 	`POST` Envia dados para serem processados (por exemplo, dados de um formulário HTML) para o recurso especificado. Os dados são incluídos no corpo do comando. Sua utilização em uma requisição ocorre quando é necessário enviar dados ao servidor para serem processados, geralmente por um programa script identificado no Request-URI.
 
 
 
-refs - 	1.(https://www.hardware.com.br/livros/redes/portas-tcp-udp.html)	
-	2.(https://br.ccm.net/contents/274-portas-tcp-ip)
-	3.(https://www.tiespecialistas.com.br/rede-interna-e-os-provedores-de-internet/)
-	4.(https://pt.wikipedia.org/wiki/TCP/IP)
-	5.(https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol#GET)
+1.(https://www.hardware.com.br/livros/redes/portas-tcp-udp.html)
 
+2.(https://br.ccm.net/contents/274-portas-tcp-ip)
+
+3.(https://www.tiespecialistas.com.br/rede-interna-e-os-provedores-de-internet/)
+
+4.(https://pt.wikipedia.org/wiki/TCP/IP)
+
+5.(https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol#GET)
