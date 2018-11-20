@@ -1,4 +1,5 @@
-/*5. Controle 6 LEDs de uma árvore de natal utilizando charlieplexing, de forma que um ser humano veja todos acesos ao mesmo tempo. Pisque os LEDs numa frequência de 100 Hz.*/
+/*5. Controle 6 LEDs de uma árvore de natal utilizando charlieplexing, 
+de forma que um ser humano veja todos acesos ao mesmo tempo. Pisque os LEDs numa frequência de 100 Hz.*/
 
 #include <stdio.h>
 #include <stdlib.h>
