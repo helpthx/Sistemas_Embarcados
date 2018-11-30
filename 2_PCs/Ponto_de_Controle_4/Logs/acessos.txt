@@ -1,0 +1,180 @@
+
+-------------------------
+Data: 2018:11:26:23:33:10
+Numeros de acessos expirados... : João Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 31.2
+------------------------
+
+-------------------------
+Data: 2018:11:26:23:33:17
+Numeros de acessos expirados... : João Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 31.2
+------------------------
+
+-------------------------
+Data: 2018:11:26:23:33:59
+Bem vindo: João Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 26.0
+Creditos antes: 31.2
+------------------------
+
+-------------------------
+Data: 2018:11:26:23:34:54
+Sem saldo : João Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: -5.2
+Creditos: 0.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:20:56
+Sem saldo : DESCADASTRADO
+Matricula: 0
+Creditos restantes: -5.2
+Creditos: 0.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:23:27
+Sem saldo : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: -5.2
+Creditos: 0.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:23:34
+Sem saldo : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: -5.2
+Creditos: 0.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:24:1
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 44.8
+Creditos antes: 50.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:24:49
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 44.8
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:27:3
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 39.6
+Creditos antes: 44.8
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:27:26
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 39.6
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:27:33
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 39.6
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:30:1
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 34.4
+Creditos antes: 39.6
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:30:11
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:33:3
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:37:35
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:37:42
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:39:12
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:39:19
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:43:16
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 29.2
+Creditos antes: 34.4
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:43:25
+Numeros de acessos expirados... : Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 29.2
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:44:38
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 24.0
+Creditos antes: 29.2
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:48:18
+Bem vindo: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos restantes: 18.8
+Creditos antes: 24.0
+------------------------
+
+-------------------------
+Data: 2018:11:29:23:48:28
+Numeros de acessos expirados... 
+Nome: Joao Vitor Rodrigues Baptista
+Matricula: 150013329
+Creditos: 18.8
+------------------------
