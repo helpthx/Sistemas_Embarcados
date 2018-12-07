@@ -7,7 +7,9 @@ int fd[2];
 pipe(fd);
 pid = fork();
 ```
+```
 Aqui são criado dois, pois a função fork cria exatamente as mesmas variaveis para o processo filho e o processo pai, os pipe com a posição de leitura[0] e escrita[1].
+```
 
 (b)
 ```C
@@ -16,15 +18,19 @@ int fd[2];
 pid = fork();
 pipe(fd);
 ```
+```
 Aqui é criado um pipe pois depois do fork o codigo criara apenas um pipe para o filho ou o pai.
+```
 
 2. Apresente mais cinco sinais importantes do ambiente Unix, além do `SIGSEGV`, `SIGUSR1`, `SIGUSR2`, `SIGALRM` e `SIGINT`. Quais são suas características e utilidades?
+```
 
 	*`SIGKILL` Mata todos os processos. Destruição.*
 	*`SIGQUIT` Ao apertar CTRL+d, emite um sinal para abandonar um processo.*
 	*`SIGILL` Instrução ilgeal é detectada.*
 	*`SIGIOT` Problemas de hardware.* 
 	*`SIGSYS` Argumento incorreto de uma chamada de sistema.* 
+```
 
 3. Considere o código a seguir:
 
